@@ -1,10 +1,10 @@
 import express from 'express';
 import path from 'path';
-import cookieParser from 'cookie-parser'''
+import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
 import indexRouter from './routes/index';
-import userRouter from './routes/users';
+import usersRouter from './routes/users';
 
 var app = express();
 
