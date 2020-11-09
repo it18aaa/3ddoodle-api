@@ -11,7 +11,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var router = _express["default"].Router();
 
-var data = [{
+var itemData = [{
   id: 1,
   name: "Bandstand",
   notes: "Imported from blender",
@@ -152,7 +152,7 @@ router.get('/textures', function (req, res, next) {
 router.get('/models', function (req, res, next) {
   res.status(200).json({
     "title": "return to you a list of models!",
-    "data": data
+    "data": itemData
   });
   console.log("sending list of models!");
 });

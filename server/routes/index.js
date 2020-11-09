@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-const data = [{
+const itemData = [{
         id: 1,
         name: "Bandstand",
         notes: "Imported from blender",
@@ -164,7 +164,7 @@ router.get('/textures', (req, res, next) => {
 router.get('/models', (req, res, next) => {
     res.status(200).json({
         "title": "return to you a list of models!",
-        "data": data
+        "data": itemData
     });
 
     console.log("sending list of models!");
