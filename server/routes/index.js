@@ -35,34 +35,34 @@ const data = [{
     },
     {
         id: 6,
-        name: "Bandstand",
+        name: "Tree 6m",
         notes: "Imported from blender",
         path: "/models/",
-        file: "bandstand.babylon",
-        thumb: "/img/thumb/models/bandstand.png"
+        file: "tree6m.babylon",
+        thumb: "/img/thumb/models/tree.png"
     },
     {
         id: 7,
-        name: "Bench",
-        notes: "A picnic bench",
+        name: "Shed 1",
+        notes: "A simple shed",
         path: "/models/",
-        file: "bench.babylon",
-        thumb: "/img/thumb/models/bench.png"
+        file: "shed1.babylon",
+        thumb: "/img/thumb/models/shed1.png"
     },
     {
         id: 8,
-        name: "Bandstand",
-        notes: "Imported from blender",
+        name: "Dennis",
+        notes: "Imported from clara.io",
         path: "/models/",
-        file: "bandstand.babylon",
-        thumb: "/img/thumb/models/bandstand.png"
+        file: "dennis-posed-004.babylon",
+        thumb: "/img/thumb/models/dennis.png"
     },
     {
         id: 9,
-        name: "Bench",
+        name: "Male",
         notes: "A picnic bench",
-        path: "/models/",
-        file: "bench.babylon",
+        path: "/models/male/",
+        file: "male.babylon",
         thumb: "/img/thumb/models/bench.png"
     },
     {
