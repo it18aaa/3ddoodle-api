@@ -1,0 +1,40 @@
+Exporter version: 6.4.5, Blender version: 2.90.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\dev\src\3ddoodle-api\public\models\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  male03
+		processing begun of material:  1
+		processing begun of material:  3
+		processing begun of material:  4
+		processing begun of material:  11
+			processing texture male03_1
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture male03_3
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture male03_11
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  male.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  4656
+		num normals        :  4656
+		num tangents       :  18624
+		num uvs            :  9312
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4891
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  male03
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.6451 secs

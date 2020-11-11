@@ -11,7 +11,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var router = _express["default"].Router();
 
-var itemData = [{
+var items = [{
   id: 1,
   name: "Bandstand",
   notes: "Imported from blender",
@@ -55,32 +55,32 @@ var itemData = [{
   thumb: "/img/thumb/models/shed1.png"
 }, {
   id: 8,
-  name: "Dennis",
-  notes: "Imported from clara.io",
+  name: "Gum Tree",
+  notes: "imported from sweethome3d.com",
   path: "/models/",
-  file: "dennis-posed-004.babylon",
-  thumb: "/img/thumb/models/dennis.png"
+  file: "gumtree15m.babylon",
+  thumb: "/img/thumb/models/gumtree15m.png"
 }, {
   id: 9,
-  name: "Male",
-  notes: "A picnic bench",
-  path: "/models/male/",
-  file: "male.babylon",
-  thumb: "/img/thumb/models/bench.png"
+  name: "Gum Tree 2",
+  notes: "imported from sweethome3d.com",
+  path: "/models/",
+  file: "gumtree2-15m.babylon",
+  thumb: "/img/thumb/models/gumtree2-15m.png"
 }, {
   id: 10,
-  name: "Bandstand",
-  notes: "Imported from blender",
+  name: "Birch 15m",
+  notes: "imported from sweethome3d.com",
   path: "/models/",
-  file: "bandstand.babylon",
-  thumb: "/img/thumb/models/bandstand.png"
+  file: "birch15m.babylon",
+  thumb: "/img/thumb/models/birch15m.png"
 }, {
   id: 12,
-  name: "Bench",
-  notes: "A picnic bench",
+  name: "Male",
+  notes: "A male",
   path: "/models/",
-  file: "bench.babylon",
-  thumb: "/img/thumb/models/bench.png"
+  file: "male.babylon",
+  thumb: "/img/thumb/models/male.png"
 }, {
   id: 13,
   name: "Bandstand",
@@ -243,22 +243,26 @@ router.get('/', function (req, res, next) {
 });
 router.get('/textures', function (req, res, next) {
   res.status(200).json({
-    "title": "textures",
+    "title": "List of textures",
     "data": textures
   });
 });
 router.get('/models', function (req, res, next) {
   res.status(200).json({
-    "title": "return to you a list of models!",
-    "data": itemData
+    "title": "List of models",
+    "data": items
   });
-  console.log("sending list of models!");
+});
+router.get('/fences', function (req, res, next) {
+  res.status(200).json({
+    "title": "fences",
+    "data": fences
+  });
 });
 router.get('/models/:id', function (req, res, next) {
   res.status(200).json({
     "title": "fetching information about model ".concat(req.params.id)
   });
-  console.log("fetching information for model ", req.params.id);
 });
 var _default = router;
 exports["default"] = _default;
