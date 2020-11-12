@@ -14,6 +14,7 @@ router.get('/', function (req, res, next) {
     });
 });
 
+
 router.get('/textures', (req, res, next) => {
     res.status(200).json({
         "title": "List of textures",
