@@ -49,5 +49,11 @@ router.get('/models/:id', function (req, res, next) {
     "title": "fetching information about model ".concat(req.params.id)
   });
 });
+router.post('/save', function (req, res, next) {
+  res.status(200).json({
+    "okay": "going to save stuff!"
+  });
+  console.log(req.body);
+});
 var _default = router;
 exports["default"] = _default;

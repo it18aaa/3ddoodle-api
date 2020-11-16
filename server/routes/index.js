@@ -43,4 +43,14 @@ router.get('/models/:id', (req, res, next) => {
     })
 })
 
+
+router.post('/save', (req, res, next) => {
+    res.status(200).json({
+        "okay": "going to save stuff!"
+    })
+
+        console.log(req.body)
+    
+})
+
 export default router;
