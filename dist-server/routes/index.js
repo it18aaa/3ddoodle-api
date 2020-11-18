@@ -13,8 +13,11 @@ var _fences = require("../model/fences");
 
 var _textures = require("../model/textures");
 
+var _fs = require("fs");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+// import * as fs from'fs';
 var router = _express["default"].Router();
 /* GET home page. */
 
@@ -50,10 +53,31 @@ router.get('/models/:id', function (req, res, next) {
   });
 });
 router.post('/save', function (req, res, next) {
-  res.status(200).json({
-    "okay": "going to save stuff!"
-  });
   console.log(req.body);
+
+  _fs.promises.writeFile("".concat(req.body.name, ".babylon"), JSON.stringify(req.body.data)).then(function (out) {
+    res.status(200).json({
+      "okay": "".concat(req.body.name, ".babylon saved")
+    });
+  })["catch"](function (err) {
+    res.status(400).json({
+      "error": err
+    });
+  });
+});
+router.get('/open/:fname', function (req, res, next) {
+  var fname = req.params.fname;
+
+  _fs.promises.readFile("".concat(fname, ".babylon"), 'utf-8').then(function (data) {
+    res.status(200).json({
+      "message": "".concat(fname, ".babylon"),
+      data: JSON.parse(data)
+    });
+  })["catch"](function (err) {
+    res.status(400).json({
+      "error": err
+    });
+  });
 });
 var _default = router;
 exports["default"] = _default;

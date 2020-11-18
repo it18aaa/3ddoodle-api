@@ -1,7 +1,19 @@
 import express from 'express';
-import { models } from '../model/models';
-import { fences } from '../model/fences';
-import { textures } from '../model/textures'
+import {
+    models
+} from '../model/models';
+import {
+    fences
+} from '../model/fences';
+import {
+    textures
+} from '../model/textures'
+// import * as fs from'fs';
+
+import {
+    promises as fs
+} from 'fs';
+
 
 const router = express.Router();
 
@@ -45,12 +57,36 @@ router.get('/models/:id', (req, res, next) => {
 
 
 router.post('/save', (req, res, next) => {
-    res.status(200).json({
-        "okay": "going to save stuff!"
-    })
+    console.log(req.body)
 
-        console.log(req.body)
-    
+    fs.writeFile(`${req.body.name}.babylon`, JSON.stringify(req.body.data))    
+        .then(out => {
+            res.status(200).json({
+                "okay": `${req.body.name}.babylon saved`
+            });
+        })
+        .catch(err => {
+            res.status(400).json({
+                "error": err
+            })
+        })
+})
+
+router.get('/open/:fname', (req, res, next) => {
+    const fname = req.params.fname;
+
+    fs.readFile(`${fname}.babylon`, 'utf-8')
+        .then(data => {
+            res.status(200).json({
+                "message": `${fname}.babylon`,
+                data: JSON.parse(data)
+            });
+        })
+        .catch(err => {
+            res.status(400).json({
+                "error" : err
+            });
+        });
 })
 
 export default router;

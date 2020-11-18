@@ -10,8 +10,8 @@ var textures = [{
   notes: "landscape bark",
   path: "/textures/ground/",
   file: "bark.jpg",
-  uScale: 1,
-  vScale: 1,
+  uScale: 4,
+  vScale: 2,
   thumb: "/img/thumb/textures/bark.jpg"
 }, {
   id: 2,
