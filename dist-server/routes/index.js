@@ -22,57 +22,54 @@ var router = _express["default"].Router();
 /* GET home page. */
 
 
-router.get('/', function (req, res, next) {
+router.get("/", function (req, res, next) {
   //   res.render('index', { title: 'Express' });
   // res.send("Hello")
   res.status(200).json({
-    "status": "request successful"
+    status: "request successful"
   });
 });
-router.get('/textures', function (req, res, next) {
+router.get("/textures", function (req, res, next) {
   res.status(200).json({
-    "title": "List of textures",
-    "data": _textures.textures
+    title: "List of textures",
+    data: _textures.textures
   });
 });
-router.get('/models', function (req, res, next) {
+router.get("/models", function (req, res, next) {
   res.status(200).json({
-    "title": "List of models",
-    "data": _models.models
+    title: "List of models",
+    data: _models.models
   });
 });
-router.get('/fences', function (req, res, next) {
+router.get("/fences", function (req, res, next) {
   res.status(200).json({
-    "title": "fences",
-    "data": _fences.fences
+    title: "fences",
+    data: _fences.fences
   });
 });
-router.get('/models/:id', function (req, res, next) {
+router.get("/models/:id", function (req, res, next) {
   res.status(200).json({
-    "title": "fetching information about model ".concat(req.params.id)
+    title: "fetching information about model ".concat(req.params.id)
   });
 });
-router.post('/save', function (req, res, next) {
+router.post("/save", function (req, res, next) {
   console.log(req.body);
 
   _fs.promises.writeFile("".concat(req.body.name, ".babylon"), JSON.stringify(req.body.data)).then(function (out) {
     res.status(200).json({
-      "okay": "".concat(req.body.name, ".babylon saved")
+      okay: "".concat(req.body.name, ".babylon saved")
     });
   })["catch"](function (err) {
     res.status(400).json({
-      "error": err
+      error: err
     });
   });
 });
-router.get('/open/:fname', function (req, res, next) {
+router.get("/open/:fname", function (req, res, next) {
   var fname = req.params.fname;
 
-  _fs.promises.readFile("".concat(fname, ".babylon"), 'utf-8').then(function (data) {
-    res.status(200).json({
-      "message": "".concat(fname, ".babylon"),
-      data: JSON.parse(data)
-    });
+  _fs.promises.readFile("".concat(fname), "utf-8").then(function (data) {
+    res.status(200).send(data);
   })["catch"](function (err) {
     res.status(400).json({
       "error": err
