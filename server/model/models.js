@@ -40,10 +40,10 @@ export const models = [{
 },
 {
     id: 7,
-    name: "Shed 1",
+    name: "Shed 2",
     notes: "A simple shed",
     path: "/models/",
-    file: "shed1.babylon",
+    file: "shed2.babylon",
     thumb: "/img/thumb/models/shed1.png"
 },
 {
