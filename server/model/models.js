@@ -63,14 +63,6 @@ export const models = [{
     thumb: "/img/thumb/models/gumtree2-15m.png"
 },
 {
-    id: 10,
-    name: "Birch 15m",
-    notes: "imported from sweethome3d.com",
-    path: "/models/",
-    file: "birch15m.babylon",
-    thumb: "/img/thumb/models/birch15m.png"
-},
-{
     id: 12,
     name: "Male",
     notes: "A male",
@@ -80,43 +72,43 @@ export const models = [{
 },
 {
     id: 13,
-    name: "Bandstand",
+    name: "Birch",
     notes: "Imported from blender",
-    path: "/models/",
-    file: "bandstand.babylon",
-    thumb: "/img/thumb/models/bandstand.png"
+    path: "/models/birch3/",
+    file: "birch.babylon",
+    thumb: "/img/thumb/models/tree.png"
 },
 {
-    id: 15,
-    name: "Bench",
-    notes: "A picnic bench",
-    path: "/models/",
-    file: "bench.babylon",
-    thumb: "/img/thumb/models/bench.png"
+    id: 14,
+    name: "hut",
+    notes: "a hut",
+    path: "/models/hut/",
+    file: "hut2.babylon",
+    thumb: "/img/thumb/models/shed1.png"
 },
 {
     id: 16,
-    name: "Bandstand",
-    notes: "Imported from blender",
-    path: "/models/",
-    file: "bandstand.babylon",
-    thumb: "/img/thumb/models/bandstand.png"
+    name: "Pine",
+    notes: "Imported from Sweet Home 3D",
+    path: "/models/pine/",
+    file: "pine.babylon",
+    thumb: "/img/thumb/models/pine.png"
 },
 {
     id: 17,
-    name: "Bench",
+    name: "Gazebo",
     notes: "A picnic bench",
-    path: "/models/",
-    file: "bench.babylon",
-    thumb: "/img/thumb/models/bench.png"
+    path: "/models/gazebo/",
+    file: "gazebo.babylon",
+    thumb: "/img/thumb/models/gazebo.png"
 },
 {
     id: 18,
-    name: "Bandstand",
+    name: "Greenhouse",
     notes: "Imported from blender",
-    path: "/models/",
-    file: "bandstand.babylon",
-    thumb: "/img/thumb/models/bandstand.png"
+    path: "/models/greenhouse/",
+    file: "greenhouse.babylon",
+    thumb: "/img/thumb/models/greenhouse.png"
 },
 {
     id: 19,
