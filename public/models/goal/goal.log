@@ -1,0 +1,33 @@
+Exporter version: 6.4.3, Blender version: 2.83.3
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  true
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  bae_Cylinder
+		processing begun of material:  base
+		processing begun of material:  net
+			processing texture footbalgoaltexture
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  goal.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  3155
+		num normals        :  3155
+		num tangents       :  12620
+		num uvs            :  6310
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1272
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  bae_Cylinder
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.2247 secs

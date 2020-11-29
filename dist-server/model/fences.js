@@ -34,5 +34,25 @@ var fences = [{
   vScale: 1,
   hasAlpha: false,
   thumb: "/img/thumb/textures/fences/wood.jpg"
+}, {
+  id: 4,
+  name: "redbrick",
+  notes: "Wooden closed board fence",
+  path: "/textures/fences/",
+  file: "redbrick.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/redbrick.jpg"
+}, {
+  id: 5,
+  name: "stone",
+  notes: "stone - texturehaven",
+  path: "/textures/fences/",
+  file: "stone.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/stone.jpg"
 }];
 exports.fences = fences;

@@ -119,4 +119,64 @@ export const textures = [{
     vScale: 1,
     thumb: "/img/thumb/textures/soil2.jpg"
 },
+{
+    id: 13,
+    name: "grey_tiles",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "grey_tiles.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/grey_tiles.jpg"
+},
+{
+    id: 14,
+    name: "sandstonetiles",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "floortiles2.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/floortiles2.jpg"
+},
+{
+    id: 15,
+    name: "bricks1",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "bricks1.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/brick1.jpg"
+},
+{
+    id: 16,
+    name: "klinkers4",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "klinkers4.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/klinkers4.jpg"
+},
+{
+    id: 17,
+    name: "cobblestone",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "cobblestone.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/cobblestone.jpg"
+},
+{
+    id: 18,
+    name: "redbrick",
+    notes: "texturehaven",
+    path: "/textures/ground/",
+    file: "redbrick.jpg",
+    uScale: 1,
+    vScale: 1,
+    thumb: "/img/thumb/textures/redbrick.jpg"
+},
 ]

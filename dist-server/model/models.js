@@ -104,9 +104,24 @@ var models = [{
   thumb: "/img/thumb/models/greenhouse.png"
 }, {
   id: 19,
-  name: "Bench",
-  notes: "A picnic bench",
-  path: "/models/",
-  thumb: "/img/thumb/models/bench.png"
+  name: "house1",
+  notes: "A house",
+  path: "/models/house1/",
+  file: "house1.babylon",
+  thumb: "/img/thumb/models/house.png"
+}, {
+  id: 20,
+  name: "slide",
+  notes: "from sweethome 3d",
+  path: "/models/child-slide/",
+  file: "child-slide.babylon",
+  thumb: "/img/thumb/models/child-slide.png"
+}, {
+  id: 21,
+  name: "goal",
+  notes: "from sweethome 3d",
+  path: "/models/goal/",
+  file: "goal.babylon",
+  thumb: "/img/thumb/models/goal.png"
 }];
 exports.models = models;
