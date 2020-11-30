@@ -1,10 +1,10 @@
 {"producer":{"name":"Blender","version":"2.83.3","exporter_version":"6.4.3","file":"pine.babylon"},
 "autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],
-"materials":[{"name":"Trunk","id":"Trunk","customType":"BABYLON.PBRMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"environmentIntensity":1,"albedo":[0.35,0.2,0.05],"reflectivity":[0,0,0],"roughness":0.9667,"alpha":1,"transparencyMode":0,"alphaCutOff":0.4,"metallic":0},
-{"name":"Needles","id":"Needles","customType":"BABYLON.PBRMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"environmentIntensity":1,"albedo":[0.18,0.29,0.1],"reflectivity":[0.36,0.36,0.36],"roughness":0.8114,"alpha":1,"transparencyMode":0,"alphaCutOff":0.4,"metallic":0}],
+"materials":[{"name":"Trunk","id":"Trunk","customType":"BABYLON.StandardMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"diffuse":[0.35,0.2,0.05],"specular":[0,0,0],"specularPower":4.2667,"alpha":1,"indexOfRefraction":0.6897},
+{"name":"Needles","id":"Needles","customType":"BABYLON.StandardMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"diffuse":[0.18,0.29,0.1],"specular":[0.36,0.36,0.36],"specularPower":24.1359,"alpha":1,"indexOfRefraction":1}],
 "multiMaterials":[{"name":"pine.Multimaterial#0","id":"pine.Multimaterial#0","materials":["Trunk","Needles"]}],
 "skeletons":[],
-"meshes":[{"name":"pine","id":"pine","materialId":"pine.Multimaterial#0","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[0.0035,0.0035,0.0035],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":false,"pickable":true,"tags":""
+"meshes":[{"name":"pine","id":"pine","materialId":"pine.Multimaterial#0","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[0.0035,0.0035,0.0035],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
 ,"positions":[-9,-2.8824,4.9658,-9,-2.8762,-5.0342,-8,32.1207,-0.0124,-8,32.1207,-0.0124,-9,-2.8762,-5.0342,-1,32.1251,-7.0124,-1,32.1163,6.9876,-9,-2.8824,4.9658,-8,32.1207,-0.0124,-1,32.1251,-7.0124,-9,-2.8762,-5.0342,-1,-2.8737,-9.0342,-1,398.1219,-1.7843,-8,32.1207,-0.0124,-1,32.1251,-7.0124,-8,32.1207,-0.0124,-1,398.1219,-1.7843
 ,-1,570.1207,0.3228,-1,32.1163,6.9876,-8,32.1207,-0.0124,-1,570.1207,0.3228,-1,32.1163,6.9876,-1,-2.8849,8.9658,-9,-2.8824,4.9658,-1,32.1251,-7.0124,-1,-2.8737,-9.0342,8,-2.8762,-5.0342,7,32.1207,-0.0124,-1,398.1219,-1.7843,-1,32.1251,-7.0124,-1,398.1219,-1.7843,7,32.1207,-0.0124,-1,570.1207,0.3228,-1,32.1163,6.9876
 ,-1,570.1207,0.3228,7,32.1207,-0.0124,-1,32.1163,6.9876,8,-2.8824,4.9658,-1,-2.8849,8.9658,7,32.1207,-0.0124,-1,32.1251,-7.0124,8,-2.8762,-5.0342,-1,32.1163,6.9876,7,32.1207,-0.0124,8,-2.8824,4.9658,8,-2.8824,4.9658,7,32.1207,-0.0124,8,-2.8762,-5.0342,23,476.1393,-29.7357,8,456.1425,-34.7482,1,452.1381,-27.7507
@@ -1097,7 +1097,7 @@
 ,"instances":[]}
 ],
 "morphTargetManagers":[],
-"cameras":[{"name":"Camera","id":"Camera","position":[7.3589,4.9583,-6.9258],"rotation":[0.4615,-0.8149,0],"fov":0.6911,"minZ":0.1,"maxZ":100,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera"}],"activeCameraID":"Camera",
+"cameras":[{"name":"Camera","id":"Camera","position":[2.3312,2.4965,-2.207],"rotation":[0.4405,-0.8079,0],"fov":0.6911,"minZ":0.1,"maxZ":100,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera"}],"activeCameraID":"Camera",
 "lights":[{"name":"Light","id":"Light","type":0,"position":[4.0762,5.9039,1.0055],"range":40,"intensityMode":0,"intensity":1,"diffuse":[1,1,1],"specular":[1,1,1],"radius":0.1}],
 "shadowGenerators":[]
 }

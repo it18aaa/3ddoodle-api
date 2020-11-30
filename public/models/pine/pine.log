@@ -1,15 +1,14 @@
 Exporter version: 6.4.3, Blender version: 2.83.3
 ========= Conversion from Blender to Babylon.js =========
 	Scene settings used :
-		Inline textures     :  false
-		Material Type       :  PBR
+		Inline textures     :  true
+		Material Type       :  STD
 		Positions Precision :  4
 		Normals Precision   :  3
 		UVs Precision       :  3
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\dev\src\3ddoodle-api\public\models\pine\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  pine
@@ -28,4 +27,4 @@ Exporter version: 6.4.3, Blender version: 2.83.3
 	writing mesh:  pine
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.6274 secs
+elapsed time:  0 min, 1.2745 secs
