@@ -94,7 +94,11 @@ var models = [{
   thumb: "/img/thumb/models/shed1.png"
 }, {
   id: 16,
-  type: "static",
+  type: "dynamic",
+  hstart: 2,
+  hend: 20,
+  base: 1.1,
+  years: 130,
   name: "Pine",
   notes: "Imported from Sweet Home 3D",
   path: "/models/pine/",
@@ -144,23 +148,13 @@ var models = [{
   id: 22,
   hstart: 1.5,
   hend: 12,
-  base: 1.7,
+  base: 1.4,
   years: 50,
-  type: "static",
+  type: "dynamic",
   name: "italian-cypress",
   notes: "from tree generator",
   path: "/models/italian-cypress/",
   file: "italian-cypress.babylon",
   thumb: "/img/thumb/models/italian-cypress.png"
-}, {
-  id: 23,
-  type: "grow",
-  name: "growbirchtest",
-  notes: "morphtarget test",
-  path: "/models/birch3",
-  base: "birch-young.babylon",
-  target: "birch-mature.babylon",
-  thumb: "/img/thumb/models/tree.png",
-  maturity: 50
 }];
 exports.models = models;
