@@ -167,5 +167,18 @@ export const models = [{
         path: "/models/italian-cypress/",
         file: "italian-cypress.babylon",
         thumb: "/img/thumb/models/italian-cypress.png"
+    }    ,
+    {
+        id: 23,
+        hstart: 0.6,
+        hend: 2.6,
+        base: 1.1,
+        years: 15,  
+        type: "dynamic",
+        name: "bay-laurel-hedge",
+        notes: "from tree generator",
+        path: "/models/hedge/",
+        file: "hedge1.babylon",
+        thumb: "/img/thumb/models/hedge.png"
     }    
 ];
