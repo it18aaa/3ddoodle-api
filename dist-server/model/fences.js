@@ -4,17 +4,18 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fences = void 0;
-var fences = [{
-  id: 1,
-  name: "woodpaliside1",
-  notes: "wooden palliside fence",
-  path: "/textures/fences/",
-  file: "fence1.png",
-  uScale: .5,
-  vScale: .5,
-  hasAlpha: true,
-  thumb: "/img/thumb/textures/fences/fence1.png"
-}, {
+var fences = [//     {
+//     id: 1,
+//     name: "woodpaliside1",
+//     notes: "wooden palliside fence",
+//     path: "/textures/fences/",
+//     file: "fence1.png",
+//     uScale: .5,
+//     vScale: .5,
+//     hasAlpha: true,
+//     thumb: "/img/thumb/textures/fences/fence1.png"
+// }, 
+{
   id: 2,
   name: "woodpaliside2",
   notes: "a white wooden palliside fence",
@@ -23,17 +24,7 @@ var fences = [{
   uScale: .5,
   vScale: .5,
   hasAlpha: true,
-  thumb: "/img/thumb/textures/fences/fence2.png"
-}, {
-  id: 3,
-  name: "closedboard1",
-  notes: "Wooden closed board fence",
-  path: "/textures/fences/",
-  file: "wood.jpg",
-  uScale: 1,
-  vScale: 1,
-  hasAlpha: false,
-  thumb: "/img/thumb/textures/fences/wood.jpg"
+  thumb: "/img/thumb/textures/fences/fence2.jpg"
 }, {
   id: 4,
   name: "redbrick",
@@ -54,5 +45,45 @@ var fences = [{
   vScale: 1,
   hasAlpha: false,
   thumb: "/img/thumb/textures/fences/stone.jpg"
+}, {
+  id: 6,
+  name: "Bricks051_2K_Color.jpg",
+  notes: "",
+  path: "/textures/fences/",
+  file: "Bricks051_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/Bricks051_2K_Color.jpg"
+}, {
+  id: 7,
+  name: "Planks006_2K_Color.jpg",
+  notes: "",
+  path: "/textures/fences/",
+  file: "Planks006_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/Planks006_2K_Color.jpg"
+}, {
+  id: 8,
+  name: "wooden_fence_texture.jpg",
+  notes: "",
+  path: "/textures/fences/",
+  file: "wooden_fence_texture.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/wooden_fence_texture.jpg"
+}, {
+  id: 9,
+  name: "WoodSiding008_2K_Color.jpg",
+  notes: "",
+  path: "/textures/fences/",
+  file: "WoodSiding008_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  hasAlpha: false,
+  thumb: "/img/thumb/textures/fences/WoodSiding008_2K_Color.jpg"
 }];
 exports.fences = fences;

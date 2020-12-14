@@ -5,132 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.textures = void 0;
 var textures = [{
-  id: 1,
-  name: "bark",
-  notes: "landscape bark",
-  path: "/textures/ground/",
-  file: "bark.jpg",
-  uScale: 4,
-  vScale: 2,
-  thumb: "/img/thumb/textures/bark.jpg"
-}, {
-  id: 2,
-  name: "grass001",
-  notes: "A lawn",
-  path: "/textures/ground/",
-  file: "grass001.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass001.jpg"
-}, {
-  id: 3,
-  name: "gravel1",
-  notes: "gravel",
-  path: "/textures/ground/",
-  file: "gravel1.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/gravel1.jpg"
-}, {
-  id: 4,
-  name: "patio",
-  notes: "Grey blockwork patio",
-  path: "/textures/ground/",
-  file: "patio1.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/patio1.jpg"
-}, {
-  id: 5,
-  name: "wood",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "wood.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/wood.jpg"
-}, {
-  id: 6,
-  name: "grass002",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "grass002.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass002.jpg"
-}, {
-  id: 7,
-  name: "grass003",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "grass003.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass003.jpg"
-}, {
-  id: 8,
-  name: "grass004",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "grass004.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass004.jpg"
-}, {
-  id: 9,
-  name: "grass005",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "grass005.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass005.jpg"
-}, {
-  id: 10,
-  name: "grass006",
-  notes: "Wood!",
-  path: "/textures/ground/",
-  file: "grass006.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grass006.jpg"
-}, {
-  id: 11,
-  name: "soil1",
-  notes: "soil",
-  path: "/textures/ground/",
-  file: "soil1.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/soil1.jpg"
-}, {
-  id: 12,
-  name: "soil2",
-  notes: "soil",
-  path: "/textures/ground/",
-  file: "soil2.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/soil2.jpg"
-}, {
-  id: 13,
-  name: "grey_tiles",
-  notes: "texturehaven",
-  path: "/textures/ground/",
-  file: "grey_tiles.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/grey_tiles.jpg"
-}, {
-  id: 14,
-  name: "sandstonetiles",
-  notes: "texturehaven",
-  path: "/textures/ground/",
-  file: "floortiles2.jpg",
-  uScale: 1,
-  vScale: 1,
-  thumb: "/img/thumb/textures/floortiles2.jpg"
-}, {
   id: 15,
   name: "bricks1",
   notes: "texturehaven",
@@ -138,7 +12,7 @@ var textures = [{
   file: "bricks1.jpg",
   uScale: 1,
   vScale: 1,
-  thumb: "/img/thumb/textures/brick1.jpg"
+  thumb: "/img/thumb/textures/bricks1.jpg"
 }, {
   id: 16,
   name: "klinkers4",
@@ -166,5 +40,194 @@ var textures = [{
   uScale: 1,
   vScale: 1,
   thumb: "/img/thumb/textures/redbrick.jpg"
+}, {
+  id: 21,
+  name: "grass_0118",
+  notes: "",
+  path: "/textures/ground/",
+  file: "grass_grass_0118_02_tiled_s.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/grass_grass_0118_02_tiled_s.jpg"
+}, {
+  id: 22,
+  name: "grass0124",
+  notes: "",
+  path: "/textures/ground/",
+  file: "grass_grass_0124_01_tiled_s.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/grass_grass_0124_01_tiled_s.jpg"
+}, {
+  id: 23,
+  name: "Rocks001",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Rocks001_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Rocks001_2K_Color.jpg"
+}, {
+  id: 24,
+  name: "PavingStones037",
+  notes: "",
+  path: "/textures/ground/",
+  file: "PavingStones037_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/PavingStones037_2K_Color.jpg"
+}, {
+  id: 25,
+  name: "PavingStones069",
+  notes: "",
+  path: "/textures/ground/",
+  file: "PavingStones069_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/PavingStones069_2K_Color.jpg"
+}, {
+  id: 26,
+  name: "Rocks002_2K_Color.jpg",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Rocks002_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Rocks002_2K_Color.jpg"
+}, {
+  id: 27,
+  name: "PavingStones081",
+  notes: "",
+  path: "/textures/ground/",
+  file: "PavingStones081_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/PavingStones081_2K_Color.jpg"
+}, {
+  id: 28,
+  name: "Rocks006",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Rocks006_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Rocks006_2K_Color.jpg"
+}, {
+  id: 29,
+  name: "PavingStones085",
+  notes: "",
+  path: "/textures/ground/",
+  file: "PavingStones085_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/PavingStones085_2K_Color.jpg"
+}, {
+  id: 30,
+  name: "Rocks022",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Rocks022_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Rocks022_2K_Color.jpg"
+}, {
+  id: 31,
+  name: "PavingStones093",
+  notes: "",
+  path: "/textures/ground/",
+  file: "PavingStones093_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/PavingStones093_2K_Color.jpg"
+}, {
+  id: 32,
+  name: "Tiles038.jpg",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Tiles038_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Tiles038_2K_Color.jpg"
+}, {
+  id: 33,
+  name: "gravel3.jpg",
+  notes: "",
+  path: "/textures/ground/",
+  file: "gravel3_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/gravel3_2K_Color.jpg"
+}, {
+  id: 34,
+  name: "Planks003.jpg",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Planks003_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Planks003_2K_Color.jpg"
+}, {
+  id: 35,
+  name: "limestone.jpg",
+  notes: "",
+  path: "/textures/ground/",
+  file: "warm-limestone-texture.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/warm-limestone-texture.jpg"
+}, {
+  id: 36,
+  name: "Ground036",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Ground036_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Ground036_2K_Color.jpg"
+}, {
+  id: 37,
+  name: "Planks006",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Planks006_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Planks006_2K_Color.jpg"
+}, {
+  id: 39,
+  name: "WoodSiding008",
+  notes: "",
+  path: "/textures/ground/",
+  file: "WoodSiding008_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/WoodSiding008_2K_Color.jpg"
+}, {
+  id: 40,
+  name: "Moss001",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Moss001_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Moss001_2K_Color.jpg"
+}, {
+  id: 41,
+  name: "Rock024",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Rock024_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Rock024_2K_Color.jpg"
+}, {
+  id: 42,
+  name: "Ground039",
+  notes: "",
+  path: "/textures/ground/",
+  file: "Ground039_2K_Color.jpg",
+  uScale: 1,
+  vScale: 1,
+  thumb: "/img/thumb/textures/Ground039_2K_Color.jpg"
 }];
 exports.textures = textures;
