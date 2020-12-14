@@ -1,0 +1,48 @@
+Exporter version: 6.4.5, Blender version: 2.90.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  true
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+	Python World class constructor completed
+	processing begun of mesh:  Mesh_0
+		processing begun of material:  material_0
+			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMath) will trigger baking
+			WARNING: unsupported node type(ShaderNodeInvert) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMath) will trigger baking
+			WARNING: unsupported node type(ShaderNodeInvert) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+			WARNING: Roughness channel baking required, but not possible, ignored
+			processing texture material_0_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture material_0_specularGlossiness
+				texture type:  specularTexture, mapped using: "UVMap"
+			processing texture material_0_specularGlossiness
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+			processing texture material_0_diffuse
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			Baking texture, type: GLOSSY, mapped using: UVMap
+			processing texture Mesh_0_baked_GLOSSY
+				texture type:  specularTexture, mapped using: "UVMap"
+			bake time:  0 min, 5.3023 secs
+		Custom split normals with tangents being used
+		num positions      :  3492
+		num normals        :  3492
+		num tangents       :  13968
+		num uvs            :  6984
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5886
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Mesh_0
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 7.2405 secs

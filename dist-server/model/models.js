@@ -69,13 +69,21 @@ var models = [{
   file: "gumtree2-15m.babylon",
   thumb: "/img/thumb/models/gumtree2-15m.png"
 }, {
-  id: 12,
+  id: 121,
   type: "static",
   name: "Male",
   notes: "A male",
   path: "/models/",
   file: "male.babylon",
   thumb: "/img/thumb/models/male.png"
+}, {
+  id: 122,
+  type: "static",
+  name: "Female",
+  notes: "A male",
+  path: "/models/",
+  file: "female.babylon",
+  thumb: "/img/thumb/models/female.png"
 }, {
   id: 13,
   type: "static",
