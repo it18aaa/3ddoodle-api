@@ -52,38 +52,41 @@ var models = [{
   path: "/models/",
   file: "shed2.babylon",
   thumb: "/img/thumb/models/shed1.png"
-}, {
-  id: 8,
-  type: "static",
-  name: "Gum Tree",
-  notes: "imported from sweethome3d.com",
-  path: "/models/",
-  file: "gumtree15m.babylon",
-  thumb: "/img/thumb/models/gumtree15m.png"
-}, {
-  id: 9,
-  type: "static",
-  name: "Gum Tree 2",
-  notes: "imported from sweethome3d.com",
-  path: "/models/",
-  file: "gumtree2-15m.babylon",
-  thumb: "/img/thumb/models/gumtree2-15m.png"
-}, {
-  id: 121,
-  type: "static",
-  name: "Male",
-  notes: "A male",
-  path: "/models/",
-  file: "male.babylon",
-  thumb: "/img/thumb/models/male.png"
-}, {
+}, // {
+//     id: 8,
+//     type: "static",
+//     name: "Gum Tree",
+//     notes: "imported from sweethome3d.com",
+//     path: "/models/",
+//     file: "gumtree15m.babylon",
+//     thumb: "/img/thumb/models/gumtree15m.png"
+// },
+// {
+//     id: 9,
+//     type: "static",
+//     name: "Gum Tree 2",
+//     notes: "imported from sweethome3d.com",
+//     path: "/models/",
+//     file: "gumtree2-15m.babylon",
+//     thumb: "/img/thumb/models/gumtree2-15m.png"
+// },
+// {
+//     id: 121,
+//     type: "static",
+//     name: "Male",
+//     notes: "A male",
+//     path: "/models/",
+//     file: "male.babylon",
+//     thumb: "/img/thumb/models/male.png"
+// },
+{
   id: 122,
   type: "static",
   name: "Female",
   notes: "A male",
   path: "/models/",
   file: "female.babylon",
-  thumb: "/img/thumb/models/female.png"
+  thumb: "/img/thumb/models/female.jpg"
 }, {
   id: 13,
   type: "static",
@@ -126,7 +129,7 @@ var models = [{
   name: "Greenhouse",
   notes: "Imported from blender",
   path: "/models/greenhouse/",
-  file: "greenhouse.babylon",
+  file: "greenhouse2.babylon",
   thumb: "/img/thumb/models/greenhouse.png"
 }, {
   id: 19,
@@ -151,7 +154,7 @@ var models = [{
   notes: "from sweethome 3d",
   path: "/models/goal/",
   file: "goal.babylon",
-  thumb: "/img/thumb/models/goal.png"
+  thumb: "/img/thumb/models/goal.jpg"
 }, {
   id: 22,
   hstart: 1.5,
@@ -176,5 +179,29 @@ var models = [{
   path: "/models/hedge/",
   file: "hedge1.babylon",
   thumb: "/img/thumb/models/hedge.png"
+}, {
+  id: 24,
+  hstart: 0.3,
+  hend: 1,
+  base: 1.9,
+  years: 20,
+  type: "dynamic",
+  name: "shrub1",
+  notes: "from tree generator",
+  path: "/models/shrub1/",
+  file: "shrub1.babylon",
+  thumb: "/img/thumb/models/shrub1.jpg"
+}, {
+  id: 25,
+  hstart: 1,
+  hend: 4.7,
+  base: 1.3,
+  years: 15,
+  type: "dynamic",
+  name: "redrobin",
+  notes: "from tree generator",
+  path: "/models/redrobin/",
+  file: "redrobin.babylon",
+  thumb: "/img/thumb/models/redrobin.jpg"
 }];
 exports.models = models;

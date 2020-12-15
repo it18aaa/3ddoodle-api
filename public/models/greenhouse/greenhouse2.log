@@ -1,0 +1,34 @@
+Exporter version: 6.4.3, Blender version: 2.83.3
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  true
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  greenhouse
+		processing begun of material:  Alu_frame
+		processing begun of material:  Glass
+		processing begun of material:  Flooring
+			processing texture greenhouse_flooring
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  greenhouse2.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  16042
+		num normals        :  16042
+		num tangents       :  64168
+		num uvs            :  32084
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5357
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  greenhouse
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 5.3679 secs
